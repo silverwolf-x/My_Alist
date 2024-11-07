@@ -1,16 +1,3 @@
-< !-- Alist V3 polyfill script for String.prototype.replaceAll --><script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>< !-- Valine comment system --><script src="https://unpkg.com/valine/dist/Valine.min.js"></script>< !-- Music player styles and scripts --><link rel="stylesheet" href="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css" /><script src="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://npm.elemecdn.com/meting2@0.0.1/js/Meting.min.js"></script><style>
-
-/* Remove notification close button */
-.notify-render .hope-close-button {
-  display: none;
-}
-
-/* Hide footer */
-/* .footer {
-  display: none !important;
-} */
-
-/* Background images for day and night modes */
 .hope-ui-light {
   background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/1921337404_upscale.png") !important;
   background-repeat: no-repeat;
@@ -27,94 +14,136 @@
   background-position: center;
 }
 
-/* Transparency for main list in day and night modes */
-.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV {
+< !--Alist V3建议添加的，已经默认添加了，如果你的没有建议加上--><script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>< !--评论系统使用的js--><script src="https://unpkg.com/valine/dist/Valine.min.js"></script>< !--音乐播放器所用的文件-->< !-- require APlayer --><link rel="stylesheet" href="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css" /><script src="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js"></script>< !-- require MetingJS --><script src="https://npm.elemecdn.com/meting2@0.0.1/js/Meting.min.js"></script><style>
+
+/* 去除通知栏 右上角 X */
+.notify-render .hope-close-button {
+  display: none;
+}
+
+/*去掉底部*/
+.footer {
+  display: none !important;
+}
+
+/*白天背景图*/
+.hope-ui-light {
+  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/1921337404_upscale.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*夜间背景图*/
+.hope-ui-dark {
+  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/537850888.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+/*主列表白天模式透明*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.hope-ui-dark .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+/*主列表夜间模式透明*/
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Transparency for README sections */
+/*readme白天模式透明*/
 .hope-c-PJLV.hope-c-PJLV-ikSuVsl-css {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.hope-ui-dark .hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+/*readme夜间模式透明*/
+.hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Transparent toggle button in top-right corner */
-.hope-ui-light .hope-icon-button,
-.hope-ui-dark .hope-icon-button {
+
+/*顶部右上角切换按钮透明*/
+.hope-ui-light .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.hope-ui-dark .hope-icon-button {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+.hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Sidebar button transparency for day and night modes */
-.hope-ui-light .hope-c-PJLV-ijgzmFG-css,
-.hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
+
+/*右下角侧边栏按钮透明 第一个是白天 第二个是夜间*/
+.hope-ui-light .hope-c-PJLV-ijgzmFG-css {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Code block transparency for day and night modes */
+/*白天模式代码块透明*/
 .hope-ui-light pre {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
+/*夜间模式代码块透明*/
 .hope-ui-dark pre {
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-/* Sidebar menu transparency */
-.hope-ui-light .hope-c-PJLV-ieGWMbI-css,
-.hope-ui-dark .hope-c-PJLV-ieGWMbI-css {
+
+/*左侧侧边栏目录*/
+/*白天模式*/
+.hope-ui-light .hope-c-PJLV-ieGWMbI-css {
   background: rgba(255, 255, 255, 0.5) !important;
 }
 
+/*夜间模式*/
 .hope-ui-dark .hope-c-PJLV-ieGWMbI-css {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Back to top button transparency */
+/* 返回顶部 */
 .hope-c-PJLV-ihVEsOa-css {
   background: rgba(255, 255, 255, 0.5) !important;
 }
 
 .hope-ui-dark .hope-c-PJLV-ihVEsOa-css {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Header transparency */
+
+/*顶部*/
 #root>.header {
   background: rgba(255, 255, 255, 0);
 }
 
-/* Navbar styling for day and night modes */
-.hope-ui-light .body>.nav,
-.hope-ui-dark .body>.nav {
+/*导航条*/
+/*白天模式*/
+.hope-ui-light .body>.nav {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: var(--hope-radii-xl);
 }
 
+/*夜间模式*/
 .hope-ui-dark .body>.nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: var(--hope-radii-xl);
 }
 
-/* Remove navbar overlay */
+/*隐藏导航条遮罩*/
 .body>.nav::after {
   display: none;
 }
 
-/* Valine comment system styling */
+
+
+/*以下为评论系统专用*/
+/*适配大小契合度*/
 .newValine {
   width: min(96%, 940px);
   flex-direction: column;
@@ -124,20 +153,26 @@
   box-shadow: var(--hope-shadows-lg);
 }
 
+/*评论区 - 白天模式透明度*/
 .hope-ui-light .newValine {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
+/*评论区 - 夜间模式透明度*/
 .hope-ui-dark .newValine {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgb(0 0 0 / 50%) !important;
 }
 
-/* Music player adjustments */
+
+/* 以下为音乐播放器额外配置 */
+/* 如果你想要音乐播放器不是很靠底部可以自己设置一下数值 0是靠最底部 */
 .aplayer .aplayer-body,
 .aplayer.aplayer-withlist {
   bottom: 0rem !important;
 }
 
+/*音乐播放器进一步进行隐藏*/
+/* 需要就加不需要就不用加 */
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
 }
@@ -146,22 +181,42 @@
   left: 0 !important;
 }
 
-/* Search bar styling with blur effects for day and night modes */
-.hope-ui-light .hope-c-PJLV-iiBaxsN-css,
-.hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled,
-.hope-ui-light .hope-c-PJLV-ikEIIxw-css,
-.hope-ui-dark .hope-c-PJLV-iiBaxsN-css,
-.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled,
-.hope-ui-dark .hope-c-PJLV-ikEIIxw-css {
+/*白天模式 搜索主体+毛玻璃*/
+.hope-ui-light .hope-c-PJLV-iiBaxsN-css {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/*白天模式 搜索栏输入框+毛玻璃*/
+.hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/*白天模式 搜索按钮+毛玻璃*/
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css {
   background-color: rgba(255, 255, 255, 0.2) !important;
   backdrop-filter: blur(10px) !important;
   padding: var(--hope-space-1) !important;
 }
 
-.hope-ui-dark .hope-c-PJLV-iiBaxsN-css,
-.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled,
+/*夜间模式搜索主体+毛玻璃*/
+.hope-ui-dark .hope-c-PJLV-iiBaxsN-css {
+  background-color: rgb(0 0 0 / 10%) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/*夜间模式搜索栏+毛玻璃*/
+.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled {
+  background-color: rgb(0 0 0 / 10%) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+/*夜间模式 搜索按钮+毛玻璃*/
 .hope-ui-dark .hope-c-PJLV-ikEIIxw-css {
-  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: rgb(0 0 0 / 10%) !important;
+  backdrop-filter: blur(10px) !important;
+  padding: var(--hope-space-1) !important;
 }
 
 </style>
