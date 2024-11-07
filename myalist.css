@@ -1,9 +1,4 @@
-/* < !--Alist V3建议添加的，已经默认添加了，如果你的没有建议加上-->
-
-<script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
-< !--评论系统使用的js-->
-<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
-< !--音乐播放器所用的文件-->< !-- require APlayer --><link rel="stylesheet" href="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css" /><script src="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js"></script>< !-- require MetingJS --><script src="https://npm.elemecdn.com/meting2@0.0.1/js/Meting.min.js"></script><style> */
+< !--Alist V3建议添加的，已经默认添加了，如果你的没有建议加上--><script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>< !--评论系统使用的js--><script src="https://unpkg.com/valine/dist/Valine.min.js"></script>< !--音乐播放器所用的文件-->< !-- require APlayer --><link rel="stylesheet" href="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.css" /><script src="https://npm.elemecdn.com/aplayer@1.10.1/dist/APlayer.min.js"></script>< !-- require MetingJS --><script src="https://npm.elemecdn.com/meting2@0.0.1/js/Meting.min.js"></script><style>
 
 /* 去除通知栏 右上角 X */
 .notify-render .hope-close-button {
@@ -11,14 +6,13 @@
 }
 
 /*去掉底部*/
-.footer {
+/* .footer {
   display: none !important;
-}
+} */
 
 /*白天背景图*/
 .hope-ui-light {
-  /* background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/1921337404_upscale.png") !important;*/
-  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/537850888.png") !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/1921337404_upscale.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -209,4 +203,4 @@
   padding: var(--hope-space-1) !important;
 }
 
-/* </style> */
+</style>
