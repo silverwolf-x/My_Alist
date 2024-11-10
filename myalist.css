@@ -12,7 +12,7 @@
 
 /*白天背景图*/
 .hope-ui-light {
-  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/1921337404_upscale.png") !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@main/img/1921337404_upscale.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -21,7 +21,7 @@
 
 /*夜间背景图*/
 .hope-ui-dark {
-  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@Silverwolf-x-patch-1/img/537850888.png") !important;
+  background-image: url("https://cdn.jsdelivr.net/gh/Silverwolf-x/Better_Alist@main/img/537850888.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
